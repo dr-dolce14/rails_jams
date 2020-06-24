@@ -1,0 +1,15 @@
+<h3>New Artist</h3>
+
+
+<%= form_tag artists_path do %>
+  <label>Name:</label><br>
+  <%= text_field_tag :name %><br>
+ 
+  <label>Age:</label><br>
+  <%= text_field_tag :age %><br>
+
+  <label>Bio:</label><br>
+  <%= text_field_tag :bio %><br>
+ 
+  <%= submit_tag "Submit Artist" %>
+<% end %>
